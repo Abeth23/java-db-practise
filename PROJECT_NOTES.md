@@ -1,5 +1,19 @@
 # Java DB Practice — Project Notes
 
+This weekend I built two Spring Boot REST APIs from scratch and connected them to a live MySQL database.
+
+🔹 Spring JDBC — connected Spring Boot to MySQL using JdbcTemplate. Wrote parameterized INSERT and SELECT queries manually. No ORM — full SQL control.
+
+🔹 Spring Data JPA — same operations, completely different approach. Just an @Entity class and a JpaRepository interface. Hibernate auto-generates the SQL. I read the console logs to see exactly what it ran behind the scenes.
+
+Built an interactive UI for both so anyone can test the API without touching the terminal.
+
+Tausief Shaikh ☑️-mentor
+
+
+
+#Java #SpringBoot #SpringJDBC #SpringDataJPA #BackendDevelopment #JavaDeveloper #Fresher #LearningInPublic
+
 ## Overview
 Two Spring Boot projects demonstrating two different approaches 
 to database interaction in Java.
